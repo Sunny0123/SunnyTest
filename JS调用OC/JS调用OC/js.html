@@ -1,0 +1,66 @@
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+<html>
+    
+    
+  
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1404.46">
+ 
+  <script type="text/javascript">
+      
+      function testClick(cmd,parameter1,parameter2)
+      {
+          alert(1);
+          document.write(Date());
+          window.location.href="objc://"+cmd+":/"+parameter1+":/"+parameter2;
+      }
+      
+      </script>
+ 
+</head>/Users/Zhang/Desktop/SunnyTest/JS调用OC/JS调用OC/js.html
+
+
+<body>
+
+
+
+<input type="button" id="enter" value="enter" onclick="testClick('printLog1:Log2:','ddddd','aaaaa');"/>
+
+
+
+
+</body>
+</html>-->
+
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <title>Title</title>
+            <script>
+                
+                function load(){
+                    document.getElementById("target").onclick();
+                }
+         // function test(){
+                // js执行的代码
+                
+          //  }
+            </script>
+    </head>
+    <body onload="load()">
+        
+        <button id="target" onclick="test()">测试这个按钮的点击</button>
+    </body>
+</html>
+
+
+
+
