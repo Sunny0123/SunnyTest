@@ -19,13 +19,23 @@
  *
  *  @return 结果
  */
-+(NSString *)decimalNumberSubtractWithBig:(NSString *)bigValue small:(NSString *)smallValue
++(NSString *)decimalNumberMinus:(NSString *)bigValue small:(NSString *)smallValue
 
 {
     
-    NSDecimalNumber *bigNumber = [NSDecimalNumber decimalNumberWithString:bigValue];
+    NSDecimalNumber *bigNumber;
+    if (bigValue) {
+        bigNumber = [NSDecimalNumber decimalNumberWithString:bigValue];
+    }else{
+        bigNumber =[NSDecimalNumber zero];
+    }
     
-    NSDecimalNumber *smallNumber = [NSDecimalNumber decimalNumberWithString:smallValue];
+    NSDecimalNumber *smallNumber;
+    if (smallValue) {
+        smallNumber = [NSDecimalNumber decimalNumberWithString:smallValue];
+    }else{
+        smallNumber =[NSDecimalNumber zero];
+    }
     
     NSDecimalNumber *product = [bigNumber decimalNumberBySubtracting:smallNumber];
     
@@ -42,30 +52,93 @@
  *
  *  @return 结果
  */
-+(NSString *)decimalNumberAddWith:(NSString *)value1 others:(NSString*)addValue, ...
++(NSString *)decimalNumberPlus:(NSString *)value1 others:(NSString*)addValue, ...
 {
+    NSDecimalNumber *addNumber1;
+    if (value1){
+       addNumber1  = [NSDecimalNumber decimalNumberWithString:value1];
+    }else{
+        addNumber1 = [NSDecimalNumber zero];
+    }
     
-    NSDecimalNumber *addNumber1 = [NSDecimalNumber decimalNumberWithString:value1];
     NSDecimalNumber *product = addNumber1;
     
     va_list args;
     va_start(args, addValue);
     if (addValue) {
-        NSDecimalNumber *otherNumber = [NSDecimalNumber decimalNumberWithString:addValue];
+        NSDecimalNumber *otherNumber;
+        if (addValue) {
+            otherNumber = [NSDecimalNumber decimalNumberWithString:addValue];
+        }else{
+            otherNumber =[NSDecimalNumber zero];
+        }
         product = [product  decimalNumberByAdding:otherNumber];
         
         
         NSString *other;
         while ((other = va_arg(args, NSString *))) {
-            NSDecimalNumber *otherNumber = [NSDecimalNumber decimalNumberWithString:other];
+            
+            NSDecimalNumber *otherNumber;
+            if (other) {
+                otherNumber = [NSDecimalNumber decimalNumberWithString:other];
+            }else{
+                otherNumber =[NSDecimalNumber zero];
+            }
             product = [product  decimalNumberByAdding:otherNumber];
             
         }
+        
     }
     va_end(args);
     
     
     return [product stringValue];
+}
+
++(NSString *)decimalNumberMultiply:(NSString *)value1 other:(NSString *)otherValue, ...{
+    
+    
+    NSDecimalNumber *addNumber1;
+    if (value1){
+        addNumber1  = [NSDecimalNumber decimalNumberWithString:value1];
+    }else{
+        addNumber1 = [NSDecimalNumber one];
+    }
+    
+    NSDecimalNumber *product = addNumber1;
+    
+    va_list args;
+    va_start(args, otherValue);
+    if (otherValue) {
+        NSDecimalNumber *otherNumber;
+        if (otherValue) {
+            otherNumber = [NSDecimalNumber decimalNumberWithString:otherValue];
+        }else{
+            otherNumber =[NSDecimalNumber one];
+        }
+        product = [product  decimalNumberByMultiplyingBy:otherNumber];
+        
+        
+        NSString *other;
+        while ((other = va_arg(args, NSString *))) {
+            
+            NSDecimalNumber *otherNumber;
+            if (other) {
+                otherNumber = [NSDecimalNumber decimalNumberWithString:other];
+            }else{
+                otherNumber =[NSDecimalNumber one];
+            }
+            product = [product  decimalNumberByMultiplyingBy:otherNumber];
+            
+        }
+        
+    }
+    va_end(args);
+    
+    
+    return [product stringValue];
+    
+    return nil;
 }
 
 /**

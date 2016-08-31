@@ -21,7 +21,7 @@
  *
  *  @return 结果
  */
-+(NSString *)decimalNumberSubtractWithBig:(NSString *)bigValue small:(NSString *)smallValue;
++(NSString *)decimalNumberMinus:(NSString *)bigValue small:(NSString *)smallValue;
 
 /**
  *  获取 若干数 之 和
@@ -31,8 +31,10 @@
  *
  *  @return 结果
  */
-+(NSString *)decimalNumberAddWith:(NSString *)value1 others:(NSString*)addValue, ...;
++(NSString *)decimalNumberPlus:(NSString *)value1 others:(NSString*)addValue, ...;
 
+
++(NSString *)decimalNumberMultiply:(NSString *)value1 other:(NSString *)otherValue, ...;
 
 /**
  *  金额    分long->元String
