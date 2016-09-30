@@ -34,6 +34,69 @@
 			remoteGlobalIDString = 9D3869D21D4878D30076557E;
 			remoteInfo = "JS调用OC";
 		};
+		9D4238851D9E39DA00EEB54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D42387F1D9E39DA00EEB54B /* Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DA7E8961D76C34D00338819;
+			remoteInfo = Common;
+		};
+		9D4238871D9E39DA00EEB54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D42387F1D9E39DA00EEB54B /* Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DA7E8B21D76C34E00338819;
+			remoteInfo = CommonTests;
+		};
+		9D4238891D9E39DA00EEB54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D42387F1D9E39DA00EEB54B /* Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DA7E8BD1D76C34E00338819;
+			remoteInfo = CommonUITests;
+		};
+		9D4238911D9E39E200EEB54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D42388B1D9E39E200EEB54B /* Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DA7E8961D76C34D00338819;
+			remoteInfo = Common;
+		};
+		9D4238931D9E39E200EEB54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D42388B1D9E39E200EEB54B /* Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DA7E8B21D76C34E00338819;
+			remoteInfo = CommonTests;
+		};
+		9D4238951D9E39E200EEB54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D42388B1D9E39E200EEB54B /* Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DA7E8BD1D76C34E00338819;
+			remoteInfo = CommonUITests;
+		};
+		9D42389D1D9E39E600EEB54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D4238971D9E39E600EEB54B /* Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DA7E8961D76C34D00338819;
+			remoteInfo = Common;
+		};
+		9D42389F1D9E39E600EEB54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D4238971D9E39E600EEB54B /* Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DA7E8B21D76C34E00338819;
+			remoteInfo = CommonTests;
+		};
+		9D4238A11D9E39E600EEB54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D4238971D9E39E600EEB54B /* Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DA7E8BD1D76C34E00338819;
+			remoteInfo = CommonUITests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +119,9 @@
 		9D3869FE1D4878D40076557E /* JS__OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS__OCUITests.m; sourceTree = "<group>"; };
 		9D386A001D4878D40076557E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D386A0C1D487A6B0076557E /* js.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = js.html; sourceTree = "<group>"; };
+		9D42387F1D9E39DA00EEB54B /* Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Common.xcodeproj; path = ../Common/Common.xcodeproj; sourceTree = "<group>"; };
+		9D42388B1D9E39E200EEB54B /* Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Common.xcodeproj; path = ../Common/Common.xcodeproj; sourceTree = "<group>"; };
+		9D4238971D9E39E600EEB54B /* Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Common.xcodeproj; path = ../Common/Common.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +152,9 @@
 		9D3869CA1D4878D30076557E = {
 			isa = PBXGroup;
 			children = (
+				9D4238971D9E39E600EEB54B /* Common.xcodeproj */,
+				9D42388B1D9E39E200EEB54B /* Common.xcodeproj */,
+				9D42387F1D9E39DA00EEB54B /* Common.xcodeproj */,
 				9D3869D51D4878D30076557E /* JS调用OC */,
 				9D3869F21D4878D40076557E /* JS调用OCTests */,
 				9D3869FD1D4878D40076557E /* JS调用OCUITests */,
@@ -146,6 +215,36 @@
 				9D386A001D4878D40076557E /* Info.plist */,
 			);
 			path = "JS调用OCUITests";
+			sourceTree = "<group>";
+		};
+		9D4238801D9E39DA00EEB54B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D4238861D9E39DA00EEB54B /* Common.app */,
+				9D4238881D9E39DA00EEB54B /* CommonTests.xctest */,
+				9D42388A1D9E39DA00EEB54B /* CommonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D42388C1D9E39E200EEB54B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D4238921D9E39E200EEB54B /* Common.app */,
+				9D4238941D9E39E200EEB54B /* CommonTests.xctest */,
+				9D4238961D9E39E200EEB54B /* CommonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D4238981D9E39E600EEB54B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D42389E1D9E39E600EEB54B /* Common.app */,
+				9D4238A01D9E39E600EEB54B /* CommonTests.xctest */,
+				9D4238A21D9E39E600EEB54B /* CommonUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +336,20 @@
 			mainGroup = 9D3869CA1D4878D30076557E;
 			productRefGroup = 9D3869D41D4878D30076557E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9D4238981D9E39E600EEB54B /* Products */;
+					ProjectRef = 9D4238971D9E39E600EEB54B /* Common.xcodeproj */;
+				},
+				{
+					ProductGroup = 9D42388C1D9E39E200EEB54B /* Products */;
+					ProjectRef = 9D42388B1D9E39E200EEB54B /* Common.xcodeproj */;
+				},
+				{
+					ProductGroup = 9D4238801D9E39DA00EEB54B /* Products */;
+					ProjectRef = 9D42387F1D9E39DA00EEB54B /* Common.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9D3869D21D4878D30076557E /* JS调用OC */,
@@ -245,6 +358,72 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9D4238861D9E39DA00EEB54B /* Common.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Common.app;
+			remoteRef = 9D4238851D9E39DA00EEB54B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D4238881D9E39DA00EEB54B /* CommonTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CommonTests.xctest;
+			remoteRef = 9D4238871D9E39DA00EEB54B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D42388A1D9E39DA00EEB54B /* CommonUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CommonUITests.xctest;
+			remoteRef = 9D4238891D9E39DA00EEB54B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D4238921D9E39E200EEB54B /* Common.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Common.app;
+			remoteRef = 9D4238911D9E39E200EEB54B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D4238941D9E39E200EEB54B /* CommonTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CommonTests.xctest;
+			remoteRef = 9D4238931D9E39E200EEB54B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D4238961D9E39E200EEB54B /* CommonUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CommonUITests.xctest;
+			remoteRef = 9D4238951D9E39E200EEB54B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D42389E1D9E39E600EEB54B /* Common.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Common.app;
+			remoteRef = 9D42389D1D9E39E600EEB54B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D4238A01D9E39E600EEB54B /* CommonTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CommonTests.xctest;
+			remoteRef = 9D42389F1D9E39E600EEB54B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D4238A21D9E39E600EEB54B /* CommonUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CommonUITests.xctest;
+			remoteRef = 9D4238A11D9E39E600EEB54B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9D3869D11D4878D30076557E /* Resources */ = {
@@ -508,6 +687,7 @@
 				9D386A051D4878D40076557E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D386A061D4878D40076557E /* Build configuration list for PBXNativeTarget "JS调用OCTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +696,7 @@
 				9D386A081D4878D40076557E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D386A091D4878D40076557E /* Build configuration list for PBXNativeTarget "JS调用OCUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +705,7 @@
 				9D386A0B1D4878D40076557E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
