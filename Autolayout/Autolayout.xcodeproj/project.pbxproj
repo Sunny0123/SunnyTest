@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D55F4CE1D9CB4D600E5CF79 /* UIImageView+MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D55F4CD1D9CB4D500E5CF79 /* UIImageView+MyImageView.m */; };
 		CA1C3DAC1D49844F00EE2F14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1C3DAB1D49844F00EE2F14 /* main.m */; };
 		CA1C3DAF1D49844F00EE2F14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1C3DAE1D49844F00EE2F14 /* AppDelegate.m */; };
 		CA1C3DB21D49844F00EE2F14 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1C3DB11D49844F00EE2F14 /* FirstViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D55F4CC1D9CB4D500E5CF79 /* UIImageView+MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MyImageView.h"; sourceTree = "<group>"; };
+		9D55F4CD1D9CB4D500E5CF79 /* UIImageView+MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MyImageView.m"; sourceTree = "<group>"; };
 		CA1C3DA71D49844F00EE2F14 /* Autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1C3DAB1D49844F00EE2F14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA1C3DAD1D49844F00EE2F14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				CA1C3DBB1D49844F00EE2F14 /* LaunchScreen.storyboard */,
 				CA1C3DBE1D49844F00EE2F14 /* Info.plist */,
 				CA1C3DAA1D49844F00EE2F14 /* Supporting Files */,
+				9D55F4CC1D9CB4D500E5CF79 /* UIImageView+MyImageView.h */,
+				9D55F4CD1D9CB4D500E5CF79 /* UIImageView+MyImageView.m */,
 			);
 			path = Autolayout;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				CA1C3DAF1D49844F00EE2F14 /* AppDelegate.m in Sources */,
 				CA1C3DB21D49844F00EE2F14 /* FirstViewController.m in Sources */,
 				CA1C3DAC1D49844F00EE2F14 /* main.m in Sources */,
+				9D55F4CE1D9CB4D600E5CF79 /* UIImageView+MyImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +510,7 @@
 				CA1C3DD91D49844F00EE2F14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA1C3DDA1D49844F00EE2F14 /* Build configuration list for PBXNativeTarget "AutolayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +519,7 @@
 				CA1C3DDC1D49844F00EE2F14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA1C3DDD1D49844F00EE2F14 /* Build configuration list for PBXNativeTarget "AutolayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +528,7 @@
 				CA1C3DDF1D49844F00EE2F14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

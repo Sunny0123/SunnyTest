@@ -11,5 +11,8 @@
 @interface FirstViewController : UIViewController
 
 
+
+@property (weak, nonatomic) IBOutlet UIImageView *imgView;
+
 @end
 

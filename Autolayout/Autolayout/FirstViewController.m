@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "UIImageView+MyImageView.h"
 
 @interface FirstViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    [self.imgView loadIamgeWithURL:@"http://image72.360doc.com/DownloadImg/2014/05/2605/42035151_4.jpg"];
+    
 }
 
 - (void)didReceiveMemoryWarning {
